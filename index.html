@@ -5,18 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            max-width: 1000px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+            background: #eef5ff;
+            border-radius: 5px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .img-fluid {
+            border: 1px solid #ddd;
+            padding: 5px;
+            background: #fff;
+            transition: transform 0.3s;
+        }
+        .img-fluid:hover {
+            transform: scale(1.05);
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="container my-4 p-4 bg-white rounded">
+    <div class="container my-4">
         <h1 class="text-center">Dr. Sanjay Pawar</h1>
-                
+        
         <div class="section">
             <h2>About Me</h2>
             <p>@13+ years of teaching and research experience after regular PhD (2010).</p>
             <p>@Google Scholar citation 900+ and h-index = 16.</p>
             <p>@Proven track record of research with 21 international publications in journals of well-reputed publishers such as Elsevier, Taylor and Francis, Springer, and Wiley.</p>
-            <p><a href="https://www.scopus.com/authid/detail.uri?authorId=55436066600">Scopus Profile</a></p>
+            <p><a href="https://www.scopus.com/authid/detail.uri?authorId=55436066600" class="btn-custom">Scopus Profile</a></p>
             <p>@Over five years of experience handling research projects under DST Inspire Faculty Award (Equivalent to Assistant Professor IIT).</p>
             <p>@Guided 1 PhD student registered under Academic CSIR New Delhi.</p>
             <p>@Grant received so far: 35 lakhs from DST.</p>
@@ -25,7 +70,7 @@
         
         <div class="section">
             <h2>Education</h2>
-	    <p>Postdoc from Cranfield University UK (Sep 2013- Mar 2014) and Technical University of Lodz Poland ( Jan-June 2011)</p>		
+            <p>Postdoc from Cranfield University UK (Sep 2013- Mar 2014) and Technical University of Lodz Poland (Jan-June 2011)</p>
             <p>Ph.D. in Chemical Engineering - ICT Mumbai (2010)</p>
             <p>M. Chem. Eng. - ICT Mumbai (2006)</p>
             <p>B.E. Chemical Engineering, Mumbai University (2003)</p>
@@ -39,9 +84,9 @@
             <p>Subjects: MTO I and II, Renewable Energy, CFD, and Python add-on courses</p>
             
             <h3>Self-Employment (Sept 2019 - Feb 2021)</h3>
-            <p>Area of Business: Algae for Health (Spirulina manufacturing unit),Certification courses in Software Engineering, Consulting, YouTuber</p>
-            
-            <h3>Past Employment (April 2014 – March 2019)</h3>
+            <p>Area of Business: Algae for Health (Spirulina manufacturing unit), Certification courses in Software Engineering, Consulting, YouTuber</p>
+       	    
+	    <h3>Past Employment (April 2014 – March 2019)</h3>
             <p><strong>CSIR-National Environmental Engineering Research Institute (NEERI), Nagpur- India</strong></p>
             <p>Research Faculty (Equivalent to Assistant Professor at IIT)</p>
             <p>Project Sponsored by Inspire Division, DST, New Delhi</p>
@@ -51,65 +96,44 @@
                 <li>Developed bench-scale bioreactors (Airlift, Bubble, Tubular type)</li>
                 <li>Designed a new large-scale bioreactor based on extensive CFD work, significantly enhancing mass transfer and mixing characteristics</li>
             </ul>
-        </div>
+	
+	</div>
         
         <div class="section">
             <h2>Research Images</h2>
             <div class="row g-3">
-                <div class="col-md-4">
-                    <img src="Img1.png" class="img-fluid rounded shadow" alt="Research Image 1">
-                </div>
-                <div class="col-md-4">
-                    <img src="img2.png" class="img-fluid rounded shadow" alt="Research Image 2">
-                </div>
-                
-                <div class="col-md-4">
-                    <img src="img4.png" class="img-fluid rounded shadow" alt="Research Image 4">
-                </div>
-				<div class="col-md-4">
-                    <img src="img7.png" class="img-fluid rounded shadow" alt="Research Image 7">
-                </div>
-				<div class="col-md-4">
-                    <img src="img6.png" class="img-fluid rounded shadow" alt="Research Image 6">
-                </div>
-				<div class="col-md-4">
-                    <img src="img5.png" class="img-fluid rounded shadow" alt="Research Image 5">
-                </div>
+                <div class="col-md-4"><img src="Img1.png" class="img-fluid rounded shadow" alt="Research Image 1"></div>
+                <div class="col-md-4"><img src="img2.png" class="img-fluid rounded shadow" alt="Research Image 2"></div>
+                <div class="col-md-4"><img src="img4.png" class="img-fluid rounded shadow" alt="Research Image 4"></div>
+                <div class="col-md-4"><img src="img7.png" class="img-fluid rounded shadow" alt="Research Image 7"></div>
+                <div class="col-md-4"><img src="img6.png" class="img-fluid rounded shadow" alt="Research Image 6"></div>
+                <div class="col-md-4"><img src="img5.png" class="img-fluid rounded shadow" alt="Research Image 5"></div>
             </div>
         </div>
-         <div class="section">
-			<p>Above images are taken from my published articles, imag3:Bioresource Technology
-				(Elsevier), 269:571-576 
-			</p>
-			<p>imag4,5,6: Bioprocess and
-				Biosystems Engg. (Springer), 41:31-45 
-			</p>	
-
-		  </div>
-		
-       <div class="section">
-			<h2>Publications full list (total 21)</h2>
-			<p><a href="https://scholar.google.com/citations?user=H3NahqwAAAAJ&hl=en">Google Profile</a></p>
-            <h2>Publications (Last 5)</h2>
-            <ul>
+        
+        <div class="section">
+            <h2>Publications full list (total 21)</h2>
+            <p><a href="https://scholar.google.com/citations?user=H3NahqwAAAAJ&hl=en" class="btn-custom">Google Profile</a></p>
+     	  <ul>
                 <li>Suvidha Gupta, RA Pandey and Sanjay Pawar (2018) Current practices and challenges in using
-microalgae for treatment of nutrient rich wastewater from agro-based industries. Science of the
-total environment (Elsevier, IF 9.8), 687, 1107-1126.</li>
+		microalgae for treatment of nutrient rich wastewater from agro-based industries. Science of the
+		total environment (Elsevier, IF 9.8), 687, 1107-1126.</li>
                 <li>Suvidha Gupta, Sanjay Pawar (2018) An integrated approach for microalgae cultivation using
-raw and anaerobic digested wastewaters from food processing industry. Bioresource Technology
-(Elsevier, IF 11.4), 269:571-576</li>
+		raw and anaerobic digested wastewaters from food processing industry. Bioresource Technology
+		(Elsevier, IF 11.4), 269:571-576</li>
                 <li>Suvidha Gupta, Sanjay Pawar (2019) Strategic mixed substrate cultivation of microalgae:
-Productivity, respiration, yield, and biodiesel quality. Journal of Applied Phycology (Springer, IF
-3.3), 31, 1573-1588.</li>
+		Productivity, respiration, yield, and biodiesel quality. Journal of Applied Phycology (Springer, IF
+		3.3), 31, 1573-1588.</li>
                 <li>Sanjay Pawar, Suvidha Gupta, Gajanan S. Kanade and Satish K. Lokhande (2019) Outdoor
-microalgae cultivation in airlift photobioreactor (10 L) at high irradiance and temperatures: Effect
-of acetate feeding on its consumption, respiration, and lipid compositions. Bioprocess and
-Biosystems Engg. (Springer, IF 3.8), 42:331-344.</li>
-				<li>Sanjay Pawar (2018) Computational fluid dynamics (CFD) analysis of airlift bioreactor: Effect of
-draft tube configurations on hydrodynamics, cells suspension, and shear rate. Bioprocess and
-Biosystems Engg. (Springer, IF 3.8), 41:31-45.</li>
+		microalgae cultivation in airlift photobioreactor (10 L) at high irradiance and temperatures: Effect
+		of acetate feeding on its consumption, respiration, and lipid compositions. Bioprocess and
+		Biosystems Engg. (Springer, IF 3.8), 42:331-344.</li>
+		<li>Sanjay Pawar (2018) Computational fluid dynamics (CFD) analysis of airlift bioreactor: Effect of
+		draft tube configurations on hydrodynamics, cells suspension, and shear rate. Bioprocess and
+		Biosystems Engg. (Springer, IF 3.8), 41:31-45.</li>
             </ul>
-        </div>
+	
+	</div>
         
         <div class="section">
             <h2>Participated / Attended International Conferences</h2>
@@ -121,10 +145,10 @@ Biosystems Engg. (Springer, IF 3.8), 41:31-45.</li>
                 <li>The 9th Asia Pacific Conference on Algal Biotechnology 2016, Bangkok, Thailand.</li>
                 <li>International Conference on Emerging Trends in Biotech for Waste Conversion, BRSI conference 2017, Nagpur, India.</li>
                 <li>International Conference on Biotechnological Research and Innovation for Sustainable Development (BioSD-2018), Hyderabad, India.</li>
-            </ul>
+	    </ul>
         </div>
     </div>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
